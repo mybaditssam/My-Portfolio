@@ -4,6 +4,9 @@
 
 * {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
     background-color: black;
 }
 
@@ -51,10 +54,8 @@ section img {
 
 main article {
    color: var(--color);
-   height: 100px;
    padding: 15px;
    margin: 15px;
-   box-sizing:border-box;
-   height: 100px;
+   box-sizing: border-box;
    background-color: lightslategray;
 }
