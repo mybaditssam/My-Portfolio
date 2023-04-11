@@ -82,8 +82,9 @@ article img:hover {
 }
 
 #site2 img {
-    width: 700px;
-    height:500px;
+    width: 100%;
+    height:auto;
+    max-width: 700px;
 }
 
 h3 {
@@ -135,3 +136,25 @@ footer {
       margin: 0;
     }
   }
+
+  @media screen and (min-width: 1729px) {
+    header nav {
+      padding: 100px;
+    }
+    
+    header li {
+      display: inline-block;
+      margin: 0 65px;
+    }
+  
+    .projects {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    .projects img {
+      margin: 20px;
+    }
+  }
+  
