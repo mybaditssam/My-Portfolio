@@ -107,8 +107,7 @@ main .older-projects {
     margin: 40px;
     display: inline-block;
     margin-top: 20px;
-    margin-bottom: 35px;
-    
+    margin-bottom: 35px; 
 }
 
 .projects img {
@@ -121,7 +120,21 @@ footer {
     color: var(--color);
     text-decoration: none;
     text-align: center;
+    margin-bottom: 5px;
 }
+
+.fa {
+    padding: 5px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+.fa:hover {
+    opacity: 0.7;
+  }
+
 
 body {
     background-color: black;
