@@ -7,7 +7,7 @@
 }
 
 * {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
 header h1 {
@@ -32,6 +32,7 @@ header img {
 header p {
     color: var(--color);
     text-align: center;
+    margin-top: 15px;
 }
 
 section img {
@@ -53,20 +54,28 @@ main article {
     border-width: 1px;
     border-color: black;
     box-sizing: border-box;
-    background-color: var(--lightgrey);
     width:fit-content;
     border-radius: 20px;
-    box-shadow: 0px 0px 13px white;
+    box-shadow: 0px 0px 8px white;
  }
 
 #about-me {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    margin-bottom: 200px;
+    margin-top: 50px;
+    color: var(--color);
 }
 
 a {
     text-decoration: none;
+}
+
+h2 {
+    text-align: center;
+    color: var(--color);
+    margin-bottom: 10px;
 }
 
 article img:hover {
@@ -116,25 +125,16 @@ main .older-projects {
 }
 
 footer {
-    background-color: var(--lightgrey);
     color: var(--color);
     text-decoration: none;
     text-align: center;
+    margin-top: 200px;
     margin-bottom: 5px;
 }
 
-.fa {
-    padding: 5px;
-    font-size: 30px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
-  }
-
-.fa:hover {
-    opacity: 0.7;
-  }
-
+footer h4 {
+    font-size: 15px;
+}
 
 body {
     background-color: black;
